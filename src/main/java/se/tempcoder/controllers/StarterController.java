@@ -16,7 +16,7 @@ public class StarterController extends HttpServlet {
 
         ModelAndView mv = new ModelAndView("hello");
 
-        mv.addObject("test", "test fy fasiken ad enkelt detta var");
+        mv.addObject("test", "This is just text that can be sent back to the view, Strings, object and so on");
 
         return mv;
 
